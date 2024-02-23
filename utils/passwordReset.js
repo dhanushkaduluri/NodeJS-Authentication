@@ -70,7 +70,7 @@ export const sendPasswordResetEmail = async (email) => {
                 <div class="content">
                     <p>Hello</p>
                     <p>You have requested to reset your password for your account. To reset your password, please use the link below:</p>
-                    <a href=http://localhost:3000/forgot/reset/${email}>reset password</a>
+                    <a href=https://nodejs-authentication-m6yw.onrender.com/forgot/reset/${email}>reset password</a>
                     <p>If you did not request a password reset, please ignore this email.</p>
                 </div>
             </div>
