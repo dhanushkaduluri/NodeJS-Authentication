@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <h1>Login</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <div class="card google-login-card">
+        <div class="card-body">
+
+          <ul>
+            <%if(msg){%>
+              <li><%= msg%></li>
+            <%}%>
+          </ul>
+
+          <!-- Makes POST request to /login route -->
+          <p>Enter Registered Email</p>
+          <form action="/forgot" method="post">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <button class="btn btn-dark" style="margin: auto;">send</button>
+          </form>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
