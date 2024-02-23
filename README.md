@@ -14,6 +14,11 @@ This is an authentication system that every application required. In this projec
 - MongoDB
 - API
 
+## Getting Started
+- clone repository
+- run npm install
+- run node index.js
+  
 # Live Demo
 Link : https://nodejs-authentication-m6yw.onrender.com
 
